@@ -1,4 +1,5 @@
 podit's dwm 5.0 fork - https://git.suckless.org/dwm
+- for use with the [ly display manager](https://github.com/nullgemm/ly), copy `dwm.desktop` to `/usr/share/xsessions/`
 
 dwm - dynamic window manager
 ============================
