@@ -1,4 +1,4 @@
-# podit's dwm 5.0 fork - https://git.suckless.org/dmenu
+podit's dwm 5.0 fork - https://git.suckless.org/dwm
 
 dwm - dynamic window manager
 ============================
