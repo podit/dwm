@@ -60,6 +60,7 @@ static const char *dmenucmd[] = { "dmenu_run", "-m", dmenumon, "-fn", dmenufont,
 static const char *termcmd[]  = { "st", NULL };
 
 #include "movestack.c"
+#include "mpdcontrol.c"
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -102,6 +103,9 @@ static Key keys[] = {
 	TAGKEYS(                        XK_8,                      7)
 	TAGKEYS(                        XK_9,                      8)
 	{ MODKEY|ShiftMask,             XK_q,      quit,           {0} },
+	{ MODKEY,                       XK_F1,     mpdchange,      {.i = -1} },
+	{ MODKEY,                       XK_F2,     mpdchange,      {.i = +1} },
+	{ MODKEY,                       XK_Escape, mpdcontrol,     {0} },
 };
 
 /* button definitions */
