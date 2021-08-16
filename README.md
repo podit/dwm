@@ -1,6 +1,13 @@
 podit's dwm 6.2 fork - https://git.suckless.org/dwm
 - for use with the [ly display manager](https://github.com/nullgemm/ly), copy `dwm.desktop` to `/usr/share/xsessions/`
 
+create a bash script at `~/.config/startup` to launch background processes
+
+relies on:
+  - kitty
+  - st
+  - mpd
+
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
