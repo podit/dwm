@@ -1,3 +1,4 @@
 .ccls-cache
 dwm
 *.o
+*.rej
