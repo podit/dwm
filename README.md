@@ -1,5 +1,8 @@
 podit's dwm 6.2 fork - https://git.suckless.org/dwm
-- for use with the [ly display manager](https://github.com/nullgemm/ly), copy `dwm.desktop` to `/usr/share/xsessions/`
+
+TODO: implement monitor switching correctly for holdbar, currently switching monitor hangs, presumably an issue with showselmon or possibly pertag patches:wq
+
+for use with the [ly display manager](https://github.com/nullgemm/ly), copy `dwm.desktop` to `/usr/share/xsessions/`
 
 create a bash script at `~/.config/startup` to launch background processes
 
