@@ -11,6 +11,9 @@ relies on:
   - st
   - mpd
 
+use [my configuration of dwmblocks](https://github.com/podit/dwmblocks) to display system status info and date/time in the bar
+
+----------------------------
 dwm - dynamic window manager
 ============================
 dwm is an extremely fast, small, and dynamic window manager for X.
